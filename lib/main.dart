@@ -40,9 +40,9 @@ class MainApp extends StatelessWidget {
           /*3*/
           Icon(
             Icons.star,
-            color: Colors.red[500],
+            color: Colors.red[800],
           ),
-          const Text('41'),
+          const Text('300'),
         ],
       ),
     );
@@ -77,7 +77,7 @@ class MainApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
         ),
-        body: Column(
+        body: ListView(
           children: [
             Image.asset(
               'images/lake.jpg',
